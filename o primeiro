@@ -1,0 +1,14 @@
+var1 = float( input("Digite um numero: ") )
+var2 = float( input("Digite outro numero: ") )
+soma = var1 + var2
+sub = var1 - var2 
+mult = var1 * var2
+div = var1 / var2
+expo = var1 ** var2
+resto = var1 % var2
+print('Soma:             ', var1,'+',var2,' = ' , soma)
+print('Subtracao:        ', var1,'-',var2,' = ' , sub)
+print('Multiplicacao:    ', var1,'*',var2,' = ' , mult)
+print('Divisão:          ', var1,'/',var2,' = ' , div)
+print('Exponenciacao:    ', var1,'**',var2,' = ', expo)
+print('Resto da divisao: ', var1,'%',var2,' = ' , resto)
